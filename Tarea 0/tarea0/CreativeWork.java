@@ -9,6 +9,11 @@ public class CreativeWork {
         this.copyright = copyright;
     }
 
+    public CreativeWork(String titulo){
+        this.titulo = titulo;
+        this.copyright = null;
+    }
+
     public String getCopyright() {
         return copyright;
     }
