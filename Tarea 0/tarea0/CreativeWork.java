@@ -1,10 +1,9 @@
 package tarea0;
 
-<<<<<<< HEAD
+
 import java.util.Objects;
 
-=======
->>>>>>> 6875e26b4714e5c3d88aaf5fca6b44572ad27530
+
 public class CreativeWork {
     private final String titulo;
     private final String copyright;
@@ -14,7 +13,7 @@ public class CreativeWork {
         this.copyright = copyright;
     }
 
-<<<<<<< HEAD
+
     public CreativeWork(String titulo){
         this.titulo = titulo;
         this.copyright = null;
@@ -41,8 +40,7 @@ public class CreativeWork {
                 '}';
     }
 
-=======
->>>>>>> 6875e26b4714e5c3d88aaf5fca6b44572ad27530
+
     public String getCopyright() {
         return copyright;
     }
