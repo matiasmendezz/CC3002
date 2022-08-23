@@ -22,8 +22,7 @@ public class CreativeWork {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof CreativeWork)) return false;
-        CreativeWork that = (CreativeWork) o;
+        if (!(o instanceof CreativeWork that)) return false;
         return titulo.equals(that.titulo) && Objects.equals(copyright, that.copyright);
     }
 
