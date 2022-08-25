@@ -1,7 +1,5 @@
 package tarea0;
 
-import tarea0.CreativeWork;
-
 public class LiteraryWork extends CreativeWork {
      private final String publisher;
 
